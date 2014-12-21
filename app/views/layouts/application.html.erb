@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
+  <title>PreMed Roadmap</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="header">
+  <p></p>
+</div>
+<div class="top_menu">
+  <ul>
+    <li><%= link_to "Home", root_path %></li>
+    <li>About</li>
+  </ul>
+</div>
+
 
 <%= yield %>
 
